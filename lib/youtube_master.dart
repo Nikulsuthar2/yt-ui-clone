@@ -217,8 +217,8 @@ class _YoutubeMainState extends State<YoutubeMain> {
                     height: 20,
                   ),
                   const ListTile(
-                    leading: const Icon(Icons.trending_up_sharp),
-                    title: const Text("Trending"),
+                    leading: Icon(Icons.trending_up_sharp),
+                    title: Text("Trending"),
                   ),
                 ],
               ),
@@ -266,7 +266,7 @@ class _YoutubeMainState extends State<YoutubeMain> {
                 label: 'Shorts',
               ),
               BottomNavigationBarItem(
-                  icon: const Icon(
+                  icon: Icon(
                     Icons.add_circle_outline,
                     size: 40,
                   ),
